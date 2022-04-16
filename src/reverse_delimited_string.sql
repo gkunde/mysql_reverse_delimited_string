@@ -1,4 +1,4 @@
-CREATE FUNCTION `reverse_sequence_order`(
+CREATE FUNCTION `reverse_delimited_string`(
 	delimited_string VARCHAR(255),
 	delimiter VARCHAR(5)
 ) RETURNS VARCHAR(255) DETERMINISTIC
