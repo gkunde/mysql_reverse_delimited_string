@@ -1,7 +1,8 @@
 CREATE FUNCTION `reverse_delimited_string`(
 	delimited_string VARCHAR(255),
 	delimiter VARCHAR(5)
-) RETURNS VARCHAR(255) DETERMINISTIC
+) RETURNS varchar(255) CHARSET utf8mb4
+    DETERMINISTIC
 BEGIN
 	DECLARE reversed_delimited_string VARCHAR(255) DEFAULT '';
 
