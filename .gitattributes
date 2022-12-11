@@ -1,0 +1,4 @@
+# SQL source file
+*.sql linguist-detectable=true
+*.sql linguist-documentation=false
+*.sql linguist-language=SQL
